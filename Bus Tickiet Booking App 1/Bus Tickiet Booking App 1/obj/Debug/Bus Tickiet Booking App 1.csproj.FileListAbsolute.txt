@@ -1,0 +1,45 @@
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus Tickiet Booking App 1.csprojAssemblyReference.cache
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.aBusSeat.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.AdminAcc.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.AdminLogin.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.BusSeat.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.ChangePasswordAdmin.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.ChangePasswordUser.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.CreateAcc.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.ForgotAdmin.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.ForgotUser.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.MainLogin.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.UserAcc.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.UserLogin.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus_Tickiet_Booking_App_1.Properties.Resources.resources
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus Tickiet Booking App 1.csproj.GenerateResource.cache
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\bin\Debug\Bus Tickiet Booking App 1.exe.config
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\bin\Debug\Bus Tickiet Booking App 1.exe
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\bin\Debug\Bus Tickiet Booking App 1.pdb
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus Tickiet Booking App 1.exe
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus Tickiet Booking App 1.pdb
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\bin\Debug\EntityFramework.dll
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\bin\Debug\EntityFramework.xml
+E:\C#\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus Tickiet Booking App 1.csproj.CopyComplete
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\bin\Debug\Bus Tickiet Booking App 1.exe.config
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus Tickiet Booking App 1.exe
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus Tickiet Booking App 1.pdb
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\bin\Debug\Bus Tickiet Booking App 1.exe
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\bin\Debug\Bus Tickiet Booking App 1.pdb
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\bin\Debug\EntityFramework.dll
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\bin\Debug\EntityFramework.xml
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus Tickiet Booking App 1.csprojResolveAssemblyReference.cache
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.aBusSeat.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.AdminAcc.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.AdminLogin.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.BusSeat.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.ChangePasswordAdmin.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.ChangePasswordUser.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.CreateAcc.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.ForgotAdmin.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.ForgotUser.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.MainLogin.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.UserAcc.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\BusTicketUi.UserLogin.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus_Tickiet_Booking_App_1.Properties.Resources.resources
+D:\Desktop\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\Bus Tickiet Booking App 1\obj\Debug\Bus Tickiet Booking App 1.csproj.GenerateResource.Cache

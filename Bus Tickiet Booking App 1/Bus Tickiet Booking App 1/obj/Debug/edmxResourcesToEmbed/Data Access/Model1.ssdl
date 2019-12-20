@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbContext.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AddBus">
+    <Key>
+      <PropertyRef Name="BusId" />
+    </Key>
+    <Property Name="BusId" Type="int" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+    <Property Name="time" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="from" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="to" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="adress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="phnno" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="seat">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="serielnumber_fk" Type="int" Nullable="false" />
+    <Property Name="uusername_fk" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="a1" Type="int" Nullable="false" />
+    <Property Name="a2" Type="int" Nullable="false" />
+    <Property Name="a3" Type="int" Nullable="false" />
+    <Property Name="a4" Type="int" Nullable="false" />
+    <Property Name="b1" Type="int" Nullable="false" />
+    <Property Name="b2" Type="int" Nullable="false" />
+    <Property Name="b3" Type="int" Nullable="false" />
+    <Property Name="b4" Type="int" Nullable="false" />
+    <Property Name="c1" Type="int" Nullable="false" />
+    <Property Name="c2" Type="int" Nullable="false" />
+    <Property Name="c3" Type="int" Nullable="false" />
+    <Property Name="c4" Type="int" Nullable="false" />
+    <Property Name="d1" Type="int" Nullable="false" />
+    <Property Name="d2" Type="int" Nullable="false" />
+    <Property Name="d3" Type="int" Nullable="false" />
+    <Property Name="d4" Type="int" Nullable="false" />
+    <Property Name="e1" Type="int" Nullable="false" />
+    <Property Name="e2" Type="int" Nullable="false" />
+    <Property Name="e3" Type="int" Nullable="false" />
+    <Property Name="e4" Type="int" Nullable="false" />
+    <Property Name="ConfirmStat" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="uusername" />
+    </Key>
+    <Property Name="uusername" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="adress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="phnno" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_seat_serialnumber">
+    <End Role="AddBus" Type="Self.AddBus" Multiplicity="1" />
+    <End Role="seat" Type="Self.seat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AddBus">
+        <PropertyRef Name="BusId" />
+      </Principal>
+      <Dependent Role="seat">
+        <PropertyRef Name="serielnumber_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_seat_uusernamefk">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="seat" Type="Self.seat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="uusername" />
+      </Principal>
+      <Dependent Role="seat">
+        <PropertyRef Name="uusername_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbContextStoreContainer">
+    <EntitySet Name="AddBus" EntityType="Self.AddBus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="seat" EntityType="Self.seat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_seat_serialnumber" Association="Self.FK_seat_serialnumber">
+      <End Role="AddBus" EntitySet="AddBus" />
+      <End Role="seat" EntitySet="seat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_seat_uusernamefk" Association="Self.FK_seat_uusernamefk">
+      <End Role="User" EntitySet="User" />
+      <End Role="seat" EntitySet="seat" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

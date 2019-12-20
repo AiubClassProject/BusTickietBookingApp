@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbContextStoreContainer" CdmEntityContainer="BusTicketDb">
+    <EntitySetMapping Name="AddBus">
+      <EntityTypeMapping TypeName="DbContext.AddBus">
+        <MappingFragment StoreEntitySet="AddBus">
+          <ScalarProperty Name="BusId" ColumnName="BusId" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="from" ColumnName="from" />
+          <ScalarProperty Name="to" ColumnName="to" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admin">
+      <EntityTypeMapping TypeName="DbContext.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="phnno" ColumnName="phnno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="seat">
+      <EntityTypeMapping TypeName="DbContext.seat">
+        <MappingFragment StoreEntitySet="seat">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="serielnumber_fk" ColumnName="serielnumber_fk" />
+          <ScalarProperty Name="uusername_fk" ColumnName="uusername_fk" />
+          <ScalarProperty Name="a1" ColumnName="a1" />
+          <ScalarProperty Name="a2" ColumnName="a2" />
+          <ScalarProperty Name="a3" ColumnName="a3" />
+          <ScalarProperty Name="a4" ColumnName="a4" />
+          <ScalarProperty Name="b1" ColumnName="b1" />
+          <ScalarProperty Name="b2" ColumnName="b2" />
+          <ScalarProperty Name="b3" ColumnName="b3" />
+          <ScalarProperty Name="b4" ColumnName="b4" />
+          <ScalarProperty Name="c1" ColumnName="c1" />
+          <ScalarProperty Name="c2" ColumnName="c2" />
+          <ScalarProperty Name="c3" ColumnName="c3" />
+          <ScalarProperty Name="c4" ColumnName="c4" />
+          <ScalarProperty Name="d1" ColumnName="d1" />
+          <ScalarProperty Name="d2" ColumnName="d2" />
+          <ScalarProperty Name="d3" ColumnName="d3" />
+          <ScalarProperty Name="d4" ColumnName="d4" />
+          <ScalarProperty Name="e1" ColumnName="e1" />
+          <ScalarProperty Name="e2" ColumnName="e2" />
+          <ScalarProperty Name="e3" ColumnName="e3" />
+          <ScalarProperty Name="e4" ColumnName="e4" />
+          <ScalarProperty Name="ConfirmStat" ColumnName="ConfirmStat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="DbContext.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="uusername" ColumnName="uusername" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="phnno" ColumnName="phnno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
